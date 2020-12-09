@@ -13,7 +13,7 @@
             .replace(/^[aeiou]/i, function (l) {
               return 'J' + l.toLowerCase();
             })
-            .replace(/[yi][aeiou]/gi, function (iv) {
+            .replace(/[yi][aeiou]/g, function (iv) {
               return iv.charAt(0) + 'j' + iv.charAt(1);
             });
         })
