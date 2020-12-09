@@ -6,7 +6,7 @@
     return (
       'Ha' +
       name
-        .split(/\s+/g)
+        .split(/\s+/)
         .map(function (w) {
           return (w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
             .replace(/^[YI]/, 'J')
