@@ -10,7 +10,7 @@
         .map(function (w) {
           return (w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
             .replace(/^[YI]/, 'J')
-            .replace(/^[aeiou]/i, function (l) {
+            .replace(/^[AEIOU]/, function (l) {
               return 'J' + l.toLowerCase();
             })
             .replace(/[yi][aeiou]/g, function (iv) {
