@@ -10,7 +10,8 @@
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "watch": "gulp watch"
   },
   "prettier": "@papaia/prettier"
 }
