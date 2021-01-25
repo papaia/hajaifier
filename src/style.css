@@ -53,7 +53,7 @@ input:focus {
   outline-width: 0;
 }
 
-#head_icon {
+.head_icon {
   height: 255px;
 }
 
