@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "prettier": "@papaia/prettier",
   "devDependencies": {
     "@papaia/prettier": "^2.0.1",
     "del": "^6.0.0",
@@ -8,10 +13,5 @@
     "gulp-htmlmin": "^5.0.1",
     "gulp-uglify": "^3.0.2",
     "rimraf": "^3.0.2"
-  },
-  "scripts": {
-    "build": "gulp build",
-    "watch": "gulp watch"
-  },
-  "prettier": "@papaia/prettier"
+  }
 }
