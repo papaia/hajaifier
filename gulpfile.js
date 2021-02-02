@@ -18,7 +18,7 @@ const html = () =>
         collapseWhitespace: true,
         removeComments: true,
         minifyCSS: { compatibility: 'ie7' },
-      })
+      }),
     )
     .pipe(gulp.dest(dist));
 

@@ -5,7 +5,7 @@
   },
   "prettier": "@papaia/prettier",
   "devDependencies": {
-    "@papaia/prettier": "^2.0.1",
+    "@papaia/prettier": "^2.2.0",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",

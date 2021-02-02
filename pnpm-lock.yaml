@@ -1,5 +1,5 @@
 devDependencies:
-  '@papaia/prettier': 2.0.1
+  '@papaia/prettier': 2.2.0
   del: 6.0.0
   gulp: 4.0.2
   gulp-clean-css: 4.3.0
@@ -33,10 +33,10 @@ packages:
       node: '>= 8'
     resolution:
       integrity: sha512-8Broas6vTtW4GIXTAHDoE32hnN2M5ykgCpWGbuXHQ15vEMqr23pB76e/GZcYsZCHALv50ktd24qhEyKr6wBtow==
-  /@papaia/prettier/2.0.1:
+  /@papaia/prettier/2.2.0:
     dev: true
     resolution:
-      integrity: sha512-Tu9GKX2yM7wcyhUBB2MahQT6f6FTHB3kK7LrHljWMsc4ByA63xeZCtiMkPzzY+wWjLGVZLjVeNAUf54BVYDGPA==
+      integrity: sha512-a15a1rGQba/ERu1vrhWvwkP/lx5hH9MBUihd1IJH5m/PRI0gTiLsuozHPyX5SAZ3OWqPk13oLkvA/y5bD6CiNQ==
   /aggregate-error/3.1.0:
     dependencies:
       clean-stack: 2.2.0
@@ -2703,7 +2703,7 @@ packages:
     resolution:
       integrity: sha512-huO4Fr1f9PmiJJdll5kwoS2e4GqzGSsMT3PPMpOwoVkOK8ckqAewMTZyA6LXVQWflleb/Z8oPBEvNsMft0XE+g==
 specifiers:
-  '@papaia/prettier': ^2.0.1
+  '@papaia/prettier': ^2.2.0
   del: ^6.0.0
   gulp: ^4.0.2
   gulp-clean-css: ^4.3.0
