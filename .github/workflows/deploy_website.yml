@@ -22,7 +22,7 @@ jobs:
       - name: Setup PNPM
         uses: pnpm/action-setup@v1.2.1
         with:
-          version: 5.16.0
+          version: 5.17.1
 
       - name: Authenticate
         run: git config --global user.name "$GITHUB_ACTOR" && git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
