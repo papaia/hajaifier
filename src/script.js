@@ -5,7 +5,7 @@
   input.oninput = window.onload = function doJa() {
     output.innerHTML =
       'Ha' +
-      (/^\s*[A-Za-z\s]+\s*$/.test(input.value)
+      (/^\s*[a-z\s]+\s*$/i.test(input.value)
         ? input.value
             .trim()
             .split(/\s+/)
